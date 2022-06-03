@@ -1,0 +1,29 @@
+{
+  "name": "dotflix-analytics",
+  "version": "1.0.0",
+  "description": "A data analytics desktop platform",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flo7842/Dotflix-analytics.git"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "BRACQ Florian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flo7842/Dotflix-analytics/issues"
+  },
+  "homepage": "https://github.com/flo7842/Dotflix-analytics#readme",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

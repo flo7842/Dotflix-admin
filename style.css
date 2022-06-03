@@ -1,0 +1,502 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #252F44;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+.icon-nav{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.menu-item{
+	display: block;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 10000000;
+    background: #0a0a0a;
+}
+
+.navbar{
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
+
+.wrapper header{
+	display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper header h1{
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5rem;
+	color: #ffff;
+}
+
+.brand-wrapper{
+    width: 211px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.header-title-wrapper{
+	width: 35%;
+}
+
+.icon-menu{
+	width: 25px;
+	height: 25px;
+}
+
+main .dashboard-section{
+	display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.dashboard-section .menu{
+	background-color: #11141B;
+	width: 25%;
+	border-radius: 10px;
+	display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li{
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu svg{
+	fill: #ffff;
+	margin-right: 0.5rem;
+}
+
+.menu span{
+	margin-left: 0.4rem;
+	vertical-align: super;
+}
+
+.ticket-length{
+	color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    background-color: #FCA311;
+}
+
+.dashboard-section .information{
+	background-color: #11141B;
+	width: 65%;
+	border-radius: 10px;
+}
+.dashboard-section .information h2{
+	text-align: center;
+	color: #FCA311;
+	margin: 1rem 0rem;
+}
+
+.dashboard-section .information .info-subscribe{
+	display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.dashboard-section .information .info-subscribe div{
+	width: 125px;
+    height: 125px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #FCA311;
+    color: #ffff;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 4px 0 0 0 white;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-section .information .info-subscribe div span{
+	font-size: 2rem;
+}
+
+.info-ticket{
+	background-color: #11141B;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+	flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.info-ticket h3{
+	text-align: center;
+    color: #FCA311;
+    margin: 2rem 0rem 1rem 0;
+}
+
+.ticket{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ticket span{
+	background: crimson;
+    border-radius: 50%;
+    border: 1px solid inherit;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-messages{
+	width: 90%;
+}
+
+.border-between-msg{
+	height: 1px;
+	width: 100%;
+	background-color: #ffff;
+}
+
+.messages{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.messages span{
+	font-size: 0.8rem;
+}
+
+.message:nth-child(1){
+	padding: 1rem 0;
+}
+
+.messages div{
+	color: white;
+}
+
+.wrapper-message{
+	display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+}
+
+.comment-dots{
+	fill: white;
+	height: 20px;
+    width: 20px;
+	margin-left: 10px;
+}
+
+.see-message{
+	font-size: 0.8rem;
+}
+
+.analytic{
+	display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.analytic img{
+	width: 200px;
+}
+
+.analytic h3{
+    text-align: center;
+    margin-top: 2rem;
+    color: #fca311;
+}
+
+.graph-type{
+	display: flex;
+    flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.graph-type span{
+	color: #FFFF;
+}
+
+.graph-bubble{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.bubble-wrapper{
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.adult{
+	background-color: blue;
+	border: 2px solid white;
+}
+.teenager{
+	background-color: red;
+	border: 2px solid white;
+}
+.child{
+	background-color: rgb(39, 39, 68);
+	border: 2px solid white;
+}
+
+.graph-bar{
+	margin-top: 2rem;
+}
+
+/** Infos utilisateur **/
+
+.header-user{
+    justify-content: space-evenly!important;
+}
+
+.wrapper-user-header{
+	display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.table-wrapper{
+	width: 90%;
+	margin: auto;
+}
+
+.table-wrapper table{
+	width: 100%;
+	margin-top: 2rem;
+}
+
+table th{
+	padding-bottom: 1.5rem;
+	color: #ffff;
+}
+
+table tr{
+	text-align: center;
+	border-bottom: 1px solid #ffffff7d;
+}
+
+table tr td{
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #FCA311;
+}
+
+.edit-icon, .eye-icon{
+	fill: #CBCBCB;
+}
+
+.trash-icon{
+	fill: crimson;
+}
+
+.user-ticket-main h3{
+	color: #FCA311;
+}
+
+.need-treat{
+	margin-top: 2rem;
+}
+
+.already-treat{
+	margin-top: 3rem;
+}
+
+.modal {
+	display: none;
+	position: fixed; 
+	padding-top: 50px;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-wrapper{
+	width: 80%;
+    margin: auto;
+	background-color: #11141B;
+  }
+  .modal-header{
+	text-align: center;
+    color: #FCA311;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .modal-content {
+	position: relative; 
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+  }
+  .ticket-user-info-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .ticket-user-info{
+	width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFF;
+  }
+  .ticket-user-avatar{
+	  width: 50%;
+  }
+  .ticket-user-avatar > div{
+    width: 150px;
+    margin: auto;
+  }
+  .ticket-user-avatar > div img{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  .ticket-user-message{
+	width: 87%;
+	margin-top: 2rem;
+  }
+  .ticket-user-message h3{
+	  color: #FCA311;
+  }
+  .ticket-user-message p{
+	  color: #FFFF;
+  }
+  .ticket-user-message > div{
+	display: flex;
+    width: 14%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+	margin-bottom: 1rem;
+  }
+  .modal-user-info{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+	color: #FCA311;
+  }
+  .modal-user-info > div{
+	  padding: 0.5rem;
+  }
+  .user-details{
+	  color: #FFFF;
+  }
+  .modal-footer{
+	text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .modal-footer button{
+	border: none;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 3px;
+    color: white;
+    background: #027731;
+  }
+  .close-btn {
+	float: right;
+	margin-right: 2rem;
+	color: lightgray;
+	font-size: 24px;
+	font-weight: bold;
+  }
+  .close-btn:hover {
+	color: darkgray;
+  }
+  @-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+  }
+  @keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+  }
