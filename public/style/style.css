@@ -67,12 +67,16 @@ a{
     background: #0a0a0a;
 }
 
-.navbar{
+.navbar-dotflix{
 	position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
+}
+
+.wrapper{
+  margin-bottom: 2rem;
 }
 
 .wrapper header{
@@ -96,7 +100,11 @@ a{
 }
 
 .header-title-wrapper{
-	width: 35%;
+	width: 25%;
+}
+
+.header-title-wrapper-dashboard{
+    width: 30%;
 }
 
 .icon-menu{
@@ -108,6 +116,7 @@ main .dashboard-section{
 	display: flex;
     flex-wrap: nowrap;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     align-content: center;
     justify-content: space-evenly;
 }
@@ -123,8 +132,8 @@ main .dashboard-section{
 }
 
 .menu li{
-	padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+	padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
 }
 
 .menu svg{
@@ -138,10 +147,11 @@ main .dashboard-section{
 }
 
 .ticket-length{
+  vertical-align: baseline!important;
 	color: white;
-    padding: 0.3rem 0.5rem;
-    border-radius: 50%;
-    background-color: #FCA311;
+  padding: 0.3rem 0.5rem;
+  border-radius: 50%;
+  background-color: #FCA311;
 }
 
 .dashboard-section .information{
@@ -161,38 +171,50 @@ main .dashboard-section{
     margin-bottom: 2rem;
 }
 
-.dashboard-section .information .info-subscribe div{
-	width: 125px;
-    height: 125px;
+.dashboard-section .information .info-subscribe > div{
+    width: 40%;
+    height: 105px;
     display: flex;
     border-radius: 10px;
-    background-color: #FCA311;
-    color: #ffff;
-    text-align: center;
+    background-color: #11141b;
+    color: #FCA311;
     flex-direction: column;
-    align-content: center;
-    box-shadow: 4px 0 0 0 white;
+    align-content: flex-start;
+    box-shadow: -4px 0 0 0 #fca311;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+}
+
+.dashboard-section .information .info-subscribe > div > div{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-section .information .info-subscribe div h3{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .dashboard-section .information .info-subscribe div span{
-	font-size: 2rem;
+	  font-size: 1.5rem;
+    margin-left: 2rem;
 }
 
 .info-ticket{
-	background-color: #11141B;
+	  background-color: #11141B;
     width: 25%;
     border-radius: 10px;
     display: flex;
-	flex-direction: column;
+	  flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .info-ticket h3{
-	text-align: center;
+	  text-align: center;
     color: #FCA311;
     margin: 2rem 0rem 1rem 0;
 }
@@ -362,8 +384,53 @@ table tr td{
     color: #FCA311;
 }
 
+.modal-content-user{
+  padding: 2rem;
+  width: 90%;
+}
+
+.custom-select{
+    position: relative;
+    display: block;
+    max-width: 44px;
+    min-width: 104px;
+    margin: 0 auto;
+    background-color: #FCA311;
+    z-index: 10;
+}
+select{
+    border: 1px solid #FCA311;
+    outline: none;
+    background: #457a5300;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: auto;
+    display: block;
+    width: 78%;
+    padding: 7px 14px 8px 12px;
+    font-size: 13px;
+    color: #FCA311;
+}
+.custom-select:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 73%;
+    line-height: 30px;
+    content: '\2228';
+    text-align: center;
+    font-size: 13px;
+    z-index: -1;
+}
 .edit-icon, .eye-icon{
-	fill: #CBCBCB;
+	  fill: #CBCBCB;
+}
+
+.eye-icon, .edit-icon{
+  margin-right: 7px;
 }
 
 .trash-icon{
@@ -388,6 +455,7 @@ table tr td{
 	padding-top: 50px;
 	left: 0; 
 	top: 0;
+  z-index: 1000000;
 	width: 100%;
 	height: 100%; 
 	background-color: rgb(0, 0, 0);
@@ -405,7 +473,7 @@ table tr td{
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .modal-content {
+  .modal-content, .modal-content-user {
 	position: relative; 
 	margin: auto;
 	display: flex;
@@ -441,7 +509,7 @@ table tr td{
     display: block;
   }
   .ticket-user-message{
-	width: 87%;
+	width: 83%;
 	margin-top: 2rem;
   }
   .ticket-user-message h3{
@@ -452,7 +520,7 @@ table tr td{
   }
   .ticket-user-message > div{
 	display: flex;
-    width: 14%;
+    width: 11%;
     justify-content: space-between;
     align-content: center;
     align-items: center;
@@ -499,4 +567,8 @@ table tr td{
   @keyframes animatetop {
 	from {top:-300px; opacity:0}
 	to {top:0; opacity:1}
+  }
+
+  .modal-header-invoice{
+    margin-left: 48px;
   }

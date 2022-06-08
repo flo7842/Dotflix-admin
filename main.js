@@ -17,9 +17,9 @@ function createWindow() {
             preload: path.join(__dirname, "preload.js")
         }
     })
-
+    win.resizable = false;
     win.webContents.openDevTools()
-    win.loadFile("./user-ticket.html")
+    win.loadFile("./info-invoice.html")
 
 }
 
