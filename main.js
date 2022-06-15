@@ -17,10 +17,9 @@ function createWindow() {
             preload: path.join(__dirname, "preload.js")
         }
     })
-    win.resizable = false;
+    win.resizable = true;
     win.webContents.openDevTools()
     win.loadFile("./index.html")
-
 }
 
 app.whenReady().then(() => {

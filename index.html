@@ -230,26 +230,15 @@
                 <div class="information analytic">
                     <div>
                         <h3>Type de consommateurs</h3>
-                        <img src="./public/img/pie-chart.png" alt="chart-pie">
-                        <div class="graph-type">
-                            <div class="bubble-wrapper">
-                                <div class="graph-bubble adult"></div>
-                                <span>Adultes</span>
-                            </div>
-                            <div class="bubble-wrapper">
-                                <div class="graph-bubble teenager"></div>
-                                <span>Enfants</span>
-                            </div>
-                            <div class="bubble-wrapper">
-                                <div class="graph-bubble child"></div>
-                                <span>Adolescent</span>
-                            </div>
+                        <div>
+                            <canvas id="pieChart"></canvas>
                         </div>
+
                     </div>
                     <div>
                         <h3>Ventes d'Abonnements <br />(année 2022)</h3>
-                        <div class="graph-bar">
-                            <img src="./public/img/chart-bar.png" alt="chart-bar">
+                        <div>
+                            <canvas id="lineChart"></canvas>
                         </div>
                     </div>
                 </div>
@@ -257,5 +246,13 @@
         </main>
     </div>
 <!-- End of Page Wrapper -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./public/js/chart-pie.js"></script>
+<script src="./public/js/bar-chart.js"></script>
+<script>
+   
+
+ 
+</script>
 </body>
 </html>

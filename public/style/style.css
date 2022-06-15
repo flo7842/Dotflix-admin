@@ -158,6 +158,8 @@ main .dashboard-section{
 	background-color: #11141B;
 	width: 65%;
 	border-radius: 10px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .dashboard-section .information h2{
 	text-align: center;
@@ -180,7 +182,7 @@ main .dashboard-section{
     color: #FCA311;
     flex-direction: column;
     align-content: flex-start;
-    box-shadow: -4px 0 0 0 #fca311;
+    box-shadow: 3px 3px 0 0 #fca311;
     align-items: flex-start;
     justify-content: center;
 }
@@ -227,7 +229,8 @@ main .dashboard-section{
 }
 
 .ticket span{
-	background: crimson;
+    margin-top: 3rem;
+	  background: crimson;
     border-radius: 50%;
     border: 1px solid inherit;
     font-weight: bold;
@@ -244,6 +247,7 @@ main .dashboard-section{
 
 .wrapper-messages{
 	width: 90%;
+  margin: auto;
 }
 
 .border-between-msg{
@@ -301,43 +305,18 @@ main .dashboard-section{
 
 .analytic h3{
     text-align: center;
-    margin-top: 2rem;
     color: #fca311;
 }
 
-.graph-type{
-	display: flex;
-    flex-direction: column;
-	margin-bottom: 2rem;
+#pieChart{
+  margin-top: 2rem;
+  width: 325px;
+  height: 220px;
 }
 
-.graph-type span{
-	color: #FFFF;
-}
-
-.graph-bubble{
-	width: 5px;
-	height: 5px;
-	border-radius: 50%;
-	margin-right: 8px;
-}
-
-.bubble-wrapper{
-	display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.adult{
-	background-color: blue;
-	border: 2px solid white;
-}
-.teenager{
-	background-color: red;
-	border: 2px solid white;
-}
-.child{
-	background-color: rgb(39, 39, 68);
-	border: 2px solid white;
+#lineChart{
+  margin-top: 10.4rem;
+  width: 343px;
 }
 
 .graph-bar{
