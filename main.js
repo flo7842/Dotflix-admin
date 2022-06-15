@@ -19,7 +19,7 @@ function createWindow() {
     })
     win.resizable = false;
     win.webContents.openDevTools()
-    win.loadFile("./info-invoice.html")
+    win.loadFile("./index.html")
 
 }
 
