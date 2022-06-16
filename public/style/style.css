@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background-color: #252F44;
+  background-color: #252F44;
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 ol, ul {
@@ -49,30 +49,30 @@ table {
 	border-spacing: 0;
 }
 a{
-    color: #ffff;
-    text-decoration: none;
+  color: #ffff;
+  text-decoration: none;
 }
 .icon-nav{
-    width: 30px;
-    height: 30px;
-    color: white;
+  width: 30px;
+  height: 30px;
+  color: white;
 }
 
 .menu-item{
 	display: block;
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    z-index: 10000000;
-    background: #0a0a0a;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 10000000;
+  background: #0a0a0a;
 }
 
 .navbar-dotflix{
 	position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
 }
 
 .wrapper{
@@ -81,9 +81,9 @@ a{
 
 .wrapper header{
 	display: flex;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .wrapper header h1{
@@ -93,10 +93,10 @@ a{
 }
 
 .brand-wrapper{
-    width: 211px;
-    height: 79px;
-    display: flex;
-    align-items: center;
+  width: 211px;
+  height: 79px;
+  display: flex;
+  align-items: center;
 }
 
 .header-title-wrapper{
@@ -114,11 +114,11 @@ a{
 
 main .dashboard-section{
 	display: flex;
-    flex-wrap: nowrap;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    align-content: center;
-    justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .dashboard-section .menu{
@@ -126,14 +126,14 @@ main .dashboard-section{
 	width: 25%;
 	border-radius: 10px;
 	display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu li{
 	padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
 }
 
 .menu svg{
@@ -169,80 +169,80 @@ main .dashboard-section{
 
 .dashboard-section .information .info-subscribe{
 	display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .dashboard-section .information .info-subscribe > div{
-    width: 40%;
-    height: 105px;
-    display: flex;
-    border-radius: 10px;
-    background-color: #11141b;
-    color: #FCA311;
-    flex-direction: column;
-    align-content: flex-start;
-    box-shadow: 3px 3px 0 0 #fca311;
-    align-items: flex-start;
-    justify-content: center;
+  width: 40%;
+  height: 105px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #11141b;
+  color: #FCA311;
+  flex-direction: column;
+  align-content: flex-start;
+  box-shadow: 3px 3px 0 0 #fca311;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .dashboard-section .information .info-subscribe > div > div{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dashboard-section .information .info-subscribe div h3{
-    font-size: 1.2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .dashboard-section .information .info-subscribe div span{
-	  font-size: 1.5rem;
-    margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
 }
 
 .info-ticket{
-	  background-color: #11141B;
-    width: 25%;
-    border-radius: 10px;
-    display: flex;
-	  flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  background-color: #11141B;
+  width: 25%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .info-ticket h3{
-	  text-align: center;
-    color: #FCA311;
-    margin: 2rem 0rem 1rem 0;
+  text-align: center;
+  color: #FCA311;
+  margin: 2rem 0rem 1rem 0;
 }
 
 .ticket{
 	display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .ticket span{
-    margin-top: 3rem;
-	  background: crimson;
-    border-radius: 50%;
-    border: 1px solid inherit;
-    font-weight: bold;
-    color: white;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  margin-top: 3rem;
+  background: crimson;
+  border-radius: 50%;
+  border: 1px solid inherit;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper-messages{
@@ -277,15 +277,15 @@ main .dashboard-section{
 
 .wrapper-message{
 	display: flex;
-    justify-content: start;
-    align-content: center;
-    align-items: center;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
 }
 
 .comment-dots{
 	fill: white;
 	height: 20px;
-    width: 20px;
+  width: 20px;
 	margin-left: 10px;
 }
 
@@ -295,8 +295,8 @@ main .dashboard-section{
 
 .analytic{
 	display: flex;
-    align-content: center;
-    justify-content: space-evenly;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .analytic img{
@@ -304,8 +304,8 @@ main .dashboard-section{
 }
 
 .analytic h3{
-    text-align: center;
-    color: #fca311;
+  text-align: center;
+  color: #fca311;
 }
 
 #pieChart{
@@ -315,7 +315,7 @@ main .dashboard-section{
 }
 
 #lineChart{
-  margin-top: 10.4rem;
+  margin-top: 6.6rem;
   width: 343px;
 }
 
@@ -326,13 +326,13 @@ main .dashboard-section{
 /** Infos utilisateur **/
 
 .header-user{
-    justify-content: space-evenly!important;
+  justify-content: space-evenly!important;
 }
 
 .wrapper-user-header{
 	display: flex;
-    align-content: center;
-    align-items: center;
+  align-content: center;
+  align-items: center;
 }
 
 .table-wrapper{
@@ -356,11 +356,16 @@ table tr{
 }
 
 table tr td{
-    font-size: 0.8rem;
-    vertical-align: middle;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: #FCA311;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #FCA311;
+}
+
+.btn-remove{
+  border: none;
+  background: none;
 }
 
 .modal-content-user{
@@ -369,43 +374,43 @@ table tr td{
 }
 
 .custom-select{
-    position: relative;
-    display: block;
-    max-width: 44px;
-    min-width: 104px;
-    margin: 0 auto;
-    background-color: #FCA311;
-    z-index: 10;
+  position: relative;
+  display: block;
+  max-width: 44px;
+  min-width: 104px;
+  margin: 0 auto;
+  background-color: #FCA311;
+  z-index: 10;
 }
 select{
-    border: 1px solid #FCA311;
-    outline: none;
-    background: #457a5300;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0;
-    margin: auto;
-    display: block;
-    width: 78%;
-    padding: 7px 14px 8px 12px;
-    font-size: 13px;
-    color: #FCA311;
+  border: 1px solid #FCA311;
+  outline: none;
+  background: #457a5300;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: auto;
+  display: block;
+  width: 78%;
+  padding: 7px 14px 8px 12px;
+  font-size: 13px;
+  color: #FCA311;
 }
 .custom-select:after{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 15px;
-    height: 73%;
-    line-height: 30px;
-    content: '\2228';
-    text-align: center;
-    font-size: 13px;
-    z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15px;
+  height: 73%;
+  line-height: 30px;
+  content: '\2228';
+  text-align: center;
+  font-size: 13px;
+  z-index: -1;
 }
 .edit-icon, .eye-icon{
-	  fill: #CBCBCB;
+	fill: #CBCBCB;
 }
 
 .eye-icon, .edit-icon{
@@ -446,19 +451,22 @@ select{
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.5);
   }
-  .modal-wrapper{
-	width: 80%;
-    margin: auto;
-	background-color: #11141B;
-  }
-  .modal-header{
-	text-align: center;
-    color: #FCA311;
-    font-size: 1.3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .modal-content, .modal-content-user {
+
+.modal-wrapper{
+  width: 80%;
+  margin: auto;
+  background-color: #11141B;
+}
+
+.modal-header{
+  text-align: center;
+  color: #FCA311;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+  
+.modal-content, .modal-content-user {
 	position: relative; 
 	margin: auto;
 	display: flex;
@@ -467,93 +475,110 @@ select{
 	-webkit-animation-duration: 0.4s;
 	animation-name: animatetop;
 	animation-duration: 0.4s
-  }
-  .ticket-user-info-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .ticket-user-info{
+}
+.ticket-user-info-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-user-info{
 	width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    color: #FFFF;
-  }
-  .ticket-user-avatar{
-	  width: 50%;
-  }
-  .ticket-user-avatar > div{
-    width: 150px;
-    margin: auto;
-  }
-  .ticket-user-avatar > div img{
+  display: flex;
+  justify-content: space-evenly;
+  color: #FFFF;
+}
+  
+.ticket-user-avatar{
+ width: 50%;
+}
+  
+.ticket-user-avatar > div{
+  width: 150px;
+  margin: auto;
+}
+  
+.ticket-user-avatar > div img{
 	max-width: 100%;
-    max-height: 100%;
-    display: block;
-  }
-  .ticket-user-message{
+  max-height: 100%;
+  display: block;
+}
+  
+.ticket-user-message{
 	width: 83%;
 	margin-top: 2rem;
-  }
-  .ticket-user-message h3{
-	  color: #FCA311;
-  }
-  .ticket-user-message p{
-	  color: #FFFF;
-  }
-  .ticket-user-message > div{
-	display: flex;
-    width: 11%;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-	margin-bottom: 1rem;
-  }
-  .modal-user-info{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
+}
+
+.ticket-user-message h3{
 	color: #FCA311;
-  }
-  .modal-user-info > div{
-	  padding: 0.5rem;
-  }
-  .user-details{
-	  color: #FFFF;
-  }
-  .modal-footer{
-	text-align: center;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .modal-footer button{
-	border: none;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    border-radius: 3px;
-    color: white;
-    background: #027731;
-  }
-  .close-btn {
+}
+
+.ticket-user-message p{
+	color: #FFFF;
+}
+  
+.ticket-user-message > div{
+	display: flex;
+  width: 11%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+	margin-bottom: 1rem;
+}
+
+.modal-user-info{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+	color: #FCA311;
+}
+
+.modal-user-info > div{
+	padding: 0.5rem;
+}
+
+.user-details{
+	color: #FFFF;
+}
+
+.modal-footer{
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.modal-footer button{
+  border: none;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 3px;
+  color: white;
+  background: #027731;
+}
+
+.close-btn {
 	float: right;
 	margin-right: 2rem;
 	color: lightgray;
 	font-size: 24px;
 	font-weight: bold;
-  }
-  .close-btn:hover {
+}
+
+.close-btn:hover {
 	color: darkgray;
-  }
-  @-webkit-keyframes animatetop {
+}
+
+@-webkit-keyframes animatetop {
 	from {top:-300px; opacity:0} 
 	to {top:0; opacity:1}
-  }
-  @keyframes animatetop {
+}
+
+@keyframes animatetop {
 	from {top:-300px; opacity:0}
 	to {top:0; opacity:1}
-  }
+}
 
-  .modal-header-invoice{
-    margin-left: 48px;
-  }
+.modal-header-invoice{
+  margin-left: 48px;
+}

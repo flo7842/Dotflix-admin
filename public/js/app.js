@@ -45,6 +45,7 @@ wrapperBars.addEventListener('click', (e) => {
     }
     
 
+
     // let menu = document.querySelector('.open-menu').addEventListener('wheel', preventScroll, {passive: false});
     // console.log(menu,'menu')
     // function preventScroll(e){
